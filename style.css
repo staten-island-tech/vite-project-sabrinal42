@@ -1,0 +1,37 @@
+:root{
+    --grey: #B6B8BC;
+    --dark-grey: #48494b;
+    --blue: #A4D0E9;
+    --dark-blue: #527E97;
+
+    --primary: var(--blue);
+    --secondary: var(--dark-blue);
+
+    --h1:7.5rem;
+    --h2: 5rem;
+    margin-left: 2%; margin-top: 2%;
+
+}
+.light{
+    --primary: var(--blue);
+    --secondary: var(--dark-blue);   
+}
+.dark{
+    --primary: var(--grey);
+    --secondary: var(--dark-grey);
+}
+
+.hero{
+    background-color: var(--primary);
+}
+.main{
+    background-color: var(--secondary);
+    height: 90vh;
+}
+
+h1{
+    font-size: var(--h1);
+}
+h2{
+    font-size: var(--h2);
+}
