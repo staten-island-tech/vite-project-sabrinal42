@@ -1,3 +1,4 @@
+
 :root{
     --grey: #B6B8BC;
     --dark-grey: #48494b;
@@ -7,8 +8,8 @@
     --primary: var(--blue);
     --secondary: var(--dark-blue);
 
-    --h1:7.5rem;
-    --h2: 5rem;
+    --h1:5.5rem;
+    --p: 6rem;
     margin-left: 2%; margin-top: 2%;
 
 }
@@ -27,11 +28,24 @@
 .main{
     background-color: var(--secondary);
     height: 90vh;
+      padding 0;
 }
 
 h1{
-    font-size: var(--h1);
+    font-size: var(--h1); text-align: center;
 }
-h2{
-    font-size: var(--h2);
+p{
+    font-size: var(--p);text-align: center;
 }
+
+
+img{
+     object-fit: cover; width: 15%;
+}
+.images, .images2, .images3{
+    display: flex; justify-content: space-around; align-items: center;
+}
+
+
+
+
