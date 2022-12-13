@@ -7,3 +7,6 @@ document.querySelector(".btn").addEventListener("click", function () {
     document.body.classList.remove("dark");
   }
 });
+const array{
+
+}
