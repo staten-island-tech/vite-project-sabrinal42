@@ -21,66 +21,66 @@ document.querySelector("#app").innerHTML = `
   </section>
   <section id="food">
     <div class="product" id="bagel">
-      <img class="w-image" src="assets/bagel.PNG" alt="bagel" />
+      <img class="w-image" src="/bagel.PNG" alt="bagel" />
       <div class="title"><h3 class="foodname">bagel seasoning</h3></div>
       <div class="info"><p>$2</p></div>
     </div>
     <div class="product" id="oat">
-      <img class="w-image" src="assets/oat.PNG" alt="oat milk" />
+      <img class="w-image" src="/oat.PNG" alt="oat milk" />
       <div class="title"><h3 class="foodname">oat milk</h3></div>
       <div class="info"><p>$4</p></div>
     </div>
     <div class="product" id="oatmeal">
-      <img class="w-image" src="assets/oatmeal.PNG" alt="oatmeal" />
+      <img class="w-image" src="/oatmeal.PNG" alt="oatmeal" />
       <div class="title"><h3 class="foodname">oatmeal</h3></div>
       <div class="info"><p>$4</p></div>
     </div>
     <div class="product" id="pasta">
-      <img class="w-image" src="assets/pasta.PNG" alt="pasta" />
+      <img class="w-image" src="/pasta.PNG" alt="pasta" />
       <div class="title"><h3 class="foodname">pasta</h3></div>
       <div class="info"><p>$2</p></div>
     </div>
     <div class="product" id="peanut">
-      <img class="w-image" src="assets/peanut.PNG" alt="peanut" />
+      <img class="w-image" src="/peanut.PNG" alt="peanut" />
       <div class="title"><h3 class="foodname">peanuts</h3></div>
       <div class="info"><p>$1</p></div>
     </div>
     <div class="product" id="lemonade">
       
-        <img  class="w-image" src="assets/lemonade.PNG" alt="lemonade" />
+        <img  class="w-image" src="/lemonade.png" alt="lemonade" />
       
       <div class="title"><h3 class="foodname">lemonade</h3></div>
       <div class="info"><p>$3</p></div>
     </div>
     <div class="product" id="bacon">
-      <img  class="w-image" src="assets/bacon.PNG" alt="bacon" />
+      <img  class="w-image" src="/bacon.PNG" alt="bacon" />
       <div class="title"><h3 class="foodname">bacon</h3></div>
       <div class="info"><p>$5</p></div>
     </div>
     <div class="product" id="shot">
-      <img class="w-image" src="assets/shot.PNG" alt="juice shot" />
+      <img class="w-image" src="/shot.png" alt="juice shot" />
       <div class="title"><h3 class="foodname">juice shot</h3></div>
       <div class="info"><p>$3</p></div>
     </div>
     <div class="product" id="tuna">
-     <img class="w-image" src="assets/tuna.PNG" alt="tuna" />
+     <img class="w-image" src="/tuna.PNG" alt="tuna" />
       <div class="title"><h3 class="foodname">tuna</h3></div>
       <div class="info"><p>$2</p></div>
     </div>
     <div class="product" id="pineapple">
       
-        <img class="w-image" src="assets/pineapple.PNG" alt="pineapple" />
+        <img class="w-image" src="/pineapple.PNG" alt="pineapple" />
   
       <div class="title"><h3 class="foodname">pineapple</h3></div>
       <div class="info"><p>$2</p></div>
     </div>
     <div class="product" id="soup">
-      <img class="w-image" src="assets/soup.PNG" alt="soup" />
+      <img class="w-image" src="/soup.PNG" alt="soup" />
       <div class="title"><h3 class="foodname">soup dumplings</h3></div>
       <div class="info"><p>$5</p></div>
     </div>
     <div class="product" id="tea">
-      <img class="w-image" src="assets/tea.PNG" alt="tea" />
+      <img class="w-image" src="/tea.png" alt="tea" />
       <div class="title"><h3 class="foodname">green tea</h3></div>
       <div class="info"><p>$2</p></div>
     </div>
