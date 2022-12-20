@@ -94,6 +94,6 @@ p{
   justify-content: space-around;
   flex-direction: row;
 }
-.btn{
+.btn,.foodbtn,.drinksbtn,.cheapbtn{
   font-size: 1.3rem; width: 11rem; height: 3rem; color: var(--secondary); margin: 2rem;
 }
