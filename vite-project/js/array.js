@@ -74,25 +74,3 @@ const trader = [
 ];
 
 export let menu = trader;
-
-document
-  .querySelector(".drinksbtn")
-  .addEventListener("click", function makecard() {
-    trader
-      .filter((trader) => trader.type.includes("drink"))
-      .forEach(
-        (trader) =>
-          function makecard(arg) {
-            menu.forEach((trader) => {
-              document.getElementById("drink").insertAdjacentHTML(
-                "beforeend",
-                `<div class="product" id=${food.name}>
-        <img class="w-image" src="${food.image}"  />
-        <div class="title"><h3 class="foodname">${food.name}</h3></div>
-        <div class="info"><p>$${food.price}</p></div>
-      </div>`
-              );
-            });
-          }
-      );
-  });
