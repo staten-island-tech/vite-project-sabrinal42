@@ -1,6 +1,7 @@
 import "../styles/style.css";
 import { menu } from "./array.js";
-function makecard(arg) {
+
+function makecard() {
   document.getElementById("food").innerHTML = "";
   menu.forEach((food) => {
     document.getElementById("food").insertAdjacentHTML(
@@ -14,7 +15,7 @@ function makecard(arg) {
   });
 }
 
-function makedrink(arg) {
+function makedrink() {
   document.getElementById("food").innerHTML = "";
   menu
     .filter((food) => food.type.includes("drink"))
@@ -30,7 +31,7 @@ function makedrink(arg) {
     });
 }
 
-function makefood(arg) {
+function makefood() {
   document.getElementById("food").innerHTML = "";
   menu
     .filter((food) => food.type.includes("food"))
@@ -46,7 +47,7 @@ function makefood(arg) {
     });
 }
 
-function makecheap(arg) {
+function makecheap() {
   document.getElementById("food").innerHTML = "";
   menu
     .filter((food) => food.price <= "3")
@@ -62,6 +63,14 @@ function makecheap(arg) {
     });
 }
 
+document.querySelector(".allbtn").addEventListener("click", makecard);
+
+document.querySelector(".drinksbtn").addEventListener("click", makedrink);
+
+document.querySelector(".foodbtn").addEventListener("click", makefood);
+
+document.querySelector(".cheapbtn").addEventListener("click", makecheap);
+
 makecard();
 document.querySelector(".btn").addEventListener("click", function () {
   if (document.body.classList.contains("light")) {
@@ -72,11 +81,3 @@ document.querySelector(".btn").addEventListener("click", function () {
     document.body.classList.remove("dark");
   }
 });
-
-document.querySelector(".drinksbtn").addEventListener("click", makedrink);
-
-document.querySelector(".allbtn").addEventListener("click", makecard);
-
-document.querySelector(".foodbtn").addEventListener("click", makefood);
-
-document.querySelector(".cheapbtn").addEventListener("click", makecheap);

@@ -6,7 +6,7 @@ const trader = [
     price: "2",
   },
   {
-    name: "oat",
+    name: "oat milk",
     image: "/oat.PNG",
     type: ["drink"],
     price: "4",
@@ -42,7 +42,7 @@ const trader = [
     price: "5",
   },
   {
-    name: "shot",
+    name: "juice shot",
     image: "/shot.png",
     type: ["drink"],
     price: "3",
